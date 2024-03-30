@@ -1,0 +1,97 @@
+/* Style for the container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(0deg, #8EC5FC 0%, #c3fcfa 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container {
+    background: transparent;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+/* Style for the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* Style for the webcam container */
+.webcam-container {
+    margin-bottom: 20px;
+    /*background-color: black;
+  height: 321px;
+  width: 426px;*/
+    width: 435px;
+}
+
+/* Style for the buttons */
+button {
+    padding: 13px 23px;
+    background-color: rgb(230, 243, 250);
+    margin-bottom: 10px;
+    width: 140px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #c3c9cc;
+    cursor: not-allowed;
+    color: white;
+}
+
+/* Style for the image preview */
+.preview-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the loading section */
+.loading-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.loading-text {
+    margin-bottom: 10px;
+}
+
+.loading-gif {
+    width: 100px;
+    height: 100px;
+}
+
+/* Style for the result section */
+.result-container {
+    margin-bottom: 20px;
+}
+
+/* Style for the form */
+form {
+    text-align: center;
+}
