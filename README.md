@@ -34,7 +34,7 @@ This repository contains the code for a face authentication application develope
   8. Installation of nginx and configuration as a reverse proxy
   9. Clone the git repository to EC2, start the project using PM2, and check for any errors
   10. Obtain a free domain from [FreeDNS](https://freedns.afraid.org/) and link it to the EC2 instance's public IP address.
-- Website link: [Face Authentication Application](http://faceauth.us.to/)
+- Website link: [Face Authentication Application](http://faceauth.us.to/)( In case your ISP has blacklisted the domain paste the URL: http://13.233.64.241/)
 
 ## Getting Started
 To run the application locally, follow these steps:
