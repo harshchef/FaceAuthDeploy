@@ -1,4 +1,5 @@
 const express = require("express");
+const serverless=require("serverless-http");
 const faceapi = require("face-api.js");
 const mongoose = require("mongoose");
 const { Canvas, Image } = require("canvas");
@@ -182,11 +183,12 @@ mongoose
     "mongodb+srv://adityakumar0718:harsh1234@cluster0.6yw0zk7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/Facerecog"
   )
   .then(() => {
+    
+ 
     app.listen(process.env.PORT || 5001);
     console.log("DB connected and server us running.");
-  })
+ })
   .catch((err) => {
     console.log(err);
   });
-
 
