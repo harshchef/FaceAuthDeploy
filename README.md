@@ -1,4 +1,6 @@
+
 Project Link: http://faceauth.us.to/
+
 Face Authentication Application
 Overview
 This repository contains the code for a face authentication application developed using React.js for the frontend and Node.js with Express.js for the backend. The application utilizes face recognition technology to provide a secure login process based on facial recognition.
